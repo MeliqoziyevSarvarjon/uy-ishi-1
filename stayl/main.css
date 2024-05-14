@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1366px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+body {
+  height: 500vh;
+  background: #F4F8FA;
+}
+
+.a {
+  width: 100%;
+  height: 60px;
+  background: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 60px;
+  padding-right: 50px;
+}
+.navbar .navbar-logo {
+  width: 39px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.navbar .navbar-text {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex: 1;
+  font-size: 20px;
+  font-weight: 700;
+}
+.navbar .navbar-collection {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  width: 200px;
+  height: 60px;
+}
+.navbar .navbar-btn {
+  background: white;
+  height: 25px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  width: 500px;
+  height: auto;
+  margin-top: 50px;
+  background: white;
+}
+.card .card-logo {
+  display: flex;
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+}
+.card .card-logo .logo-text {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex: 1;
+  font-size: 30px;
+  font-weight: 700;
+}
+.card .card-login {
+  width: 350px;
+  height: 70px;
+  margin-top: 50px;
+}
+.card .card-login .login-text {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.card .card-login .login-item {
+  text-align: center;
+  font-size: 20px;
+}
+.card .register {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+}
+.card .register .frist-name {
+  width: 217px;
+  height: 80px;
+}
+.card .register .frist-name .frist-name-input {
+  width: 100%;
+  height: 70%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+.card .data {
+  width: 100%;
+  height: 75px;
+}
+.card .data .date-input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+.card .Gander {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 80px;
+}
+.card .Gander .gander-text {
+  width: 100%;
+}
+.card .Gander .gender-items {
+  display: flex;
+  width: 50%;
+  height: 70%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.card .Gander .gender-items .female {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.card .Gander .gender-items .Gander-input {
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 25px;
+  height: 25px;
+}
+.card .skype {
+  width: 100%;
+  height: 80px;
+}
+.card .skype .skype-input {
+  width: 100%;
+  height: 70%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ddd;
+}
+.card .register-button {
+  margin-left: 20px;
+  width: 416px;
+  height: 46px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background: #01BAB3;
+}
+.card .register-button .btn-text {
+  color: white;
+  font-size: 20px;
+}
+
+.register {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+}
+.register .email {
+  width: 100%;
+  height: 80px;
+}
+.register .email .email-input {
+  width: 100%;
+  height: 70%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.phone {
+  width: 100%;
+  height: 75px;
+}
+.phone .phone-input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.country {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 80px;
+}
+.country .country-text {
+  width: 100%;
+}
+.country .country-items {
+  display: flex;
+  width: 50%;
+  height: 70%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.country .country-input {
+  border: 1px solid #ddd;
+  outline: none;
+  width: 100%;
+  height: 100%;
+}
+
+.password {
+  width: 100%;
+  height: 80px;
+}
+.password .password-input {
+  width: 100%;
+  height: 70%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ddd;
+}
+
+.register-button {
+  margin-left: 20px;
+  width: 416px;
+  height: 46px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background: #01BAB3;
+}
+.register-button .btn-text {
+  color: white;
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */

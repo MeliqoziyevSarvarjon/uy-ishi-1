@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1366px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+body{
+    height: 500vh;
+    background: #F4F8FA;
+}
+.a{
+    width: 100%;
+    height: 60px;
+    background: white;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 60px;
+    
+    padding-right: 50px;
+    .navbar-logo{
+        width: 39px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .navbar-text{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex: 1;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .navbar-collection{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        gap: 20px;
+        width: 200px;
+        height: 60px;
+    }
+    .navbar-btn{
+        background: white;
+        height: 25px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    background: white;
+    .card-logo{
+        display: flex;
+        margin-top: 50px;
+        width: 150px;
+        height: 50px;
+        .logo-text{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            flex: 1;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+    .card-login{
+        width: 350px;
+        height: 70px;
+        margin-top: 50px;
+        .login-text{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .login-item{
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+    .register{
+        display: flex;
+        flex-wrap:wrap;
+        gap: 30px;
+        width: 100%;
+        height: 600px;
+        margin-top: 50px;
+        .frist-name{
+            width: 217px;
+            height: 80px;
+            .frist-name-input{
+                width: 100%;
+                height: 70%;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                outline: none;
+            }
+        }
+    }
+    .data{
+        width: 100%;
+        height: 75px;
+        .date-input{
+            width: 100%;
+            height: 50px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            outline: none;
+        }
+    }
+    .Gander{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 80px;
+        .gander-text{
+            width: 100%;
+        }
+        .gender-items{
+            display: flex;
+            width: 50%;
+            height: 70%;
+            border: 1px solid #ddd;
+            border-radius: 5px ;
+            .female{
+              margin-top: 15px;
+              margin-left: 5px;
+        }
+        .Gander-input{
+            margin-top: 15px;
+            margin-left: 15px;
+            width: 25px;
+            height: 25px;
+        }
+    }
+    }
+    .skype{
+        width: 100%;
+        height: 80px;
+        .skype-input{
+            width: 100%;
+            height: 70%;
+            border-radius: 5px;
+            outline: none;
+            border: 1px solid #ddd;
+        }
+    }
+    .register-button{
+        margin-left: 20px;
+        width: 416px;
+        height: 46px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        background: #01BAB3;
+        .btn-text{
+            color: white;
+            font-size:20px ;
+        }
+
+    }
+    
+}
+.register{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 30px;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    .email{
+        width: 100%;
+        height: 80px;
+        .email-input{
+            width: 100%;
+            height: 70%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            outline: none;
+        }
+    }
+}
+.phone{
+    width: 100%;
+    height: 75px;
+    .phone-input{
+        width: 100%;
+        height: 50px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        outline: none;
+    }
+}
+.country{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80px;
+    .country-text{
+        width: 100%;
+    }
+    .country-items{
+        display: flex;
+        width: 50%;
+        height: 70%;
+        border: 1px solid #ddd;
+        border-radius: 5px ;
+    }
+    .country-input{
+        border: 1px solid #ddd;
+        outline: none;
+        width: 100%;
+        height: 100%;
+    }
+}
+.password{
+    width: 100%;
+    height: 80px;
+    .password-input{
+        width: 100%;
+        height: 70%;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid #ddd;
+    }
+}
+.register-button{
+    margin-left: 20px;
+    width: 416px;
+    height: 46px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: #01BAB3;
+    .btn-text{
+        color: white;
+        font-size:20px ;
+    }
+
+}
